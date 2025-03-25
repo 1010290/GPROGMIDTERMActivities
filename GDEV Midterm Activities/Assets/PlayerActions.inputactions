@@ -1,0 +1,82 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "9763ae4c-8a68-433b-8eae-e7d27b2ea50d",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "d63ae437-e797-413d-b9e5-8ff051030817",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "09fb0015-8b4b-4943-ae09-87aa62cb35ba",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player",
+            "id": "4b4f5065-4cdb-41e0-91ca-fc20744c493e",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "da14cf88-9883-40a8-8bad-0d1761830d57",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Movement",
+                    "type": "Button",
+                    "id": "2f7b91f8-54da-40e0-99ce-83f4e396857c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "65e38dff-04f6-47d4-8b38-a50d7509c8dd",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c337768-91a8-4734-8d18-1fc5710c3339",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
